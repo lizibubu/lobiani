@@ -11,7 +11,7 @@ public class Problem07 extends SuperKarel {
 				turnRight();
 			}
 		}
-		fillOneLine();
+		fillaline();
 	}
 
 	private void goback() {
