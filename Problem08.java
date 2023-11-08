@@ -3,12 +3,8 @@ import stanford.karel.SuperKarel;
 public class Problem08 extends SuperKarel {
 	public void run() {
 		move();
-		transportAllBeepersToForth();
+		transportBeepersToForth();
 		move();
-		minusBeepersOnNeighboringCells();
-	}
-
-	private void minusBeepersOnNeighboringCells() {
 		while (beepersPresent()) {
 			pickBeeper();
 			move();
@@ -17,10 +13,9 @@ public class Problem08 extends SuperKarel {
 			move();
 			turnAround();
 		}
+	}	
 
-	}
-
-	private void transportAllBeepersToForth() {
+	private void transportBeepersToForth() {
 		while (beepersPresent()) {
 			pickBeeper();
 			move();
