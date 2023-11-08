@@ -22,7 +22,6 @@ public class Problem09 extends Karel {
 		turnAround();
 	}
 	
-	// adds beepers from third to fourth and fifth
 	private void addBeepers() {
 		while (beepersPresent()) {
 			pickBeeper();
@@ -37,7 +36,6 @@ public class Problem09 extends Karel {
 		}
 	}
 	
-	// returns beepers from fifth to third
 	private void returnBeepers() {
 		while (beepersPresent()) {
 			pickBeeper();
