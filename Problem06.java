@@ -3,12 +3,12 @@ import stanford.karel.Karel;
 public class Problem06 extends Karel {
 	public void run() {
 		move();
-		transportSecondCell();
+		takefromsecondcell();
 		move();
-		transportThirdCell();
+		takefromthirdcell();
 	}
 
-	private void transportThirdCell() {
+	private void takefromthirdcell() {
 		while (beepersPresent()) {
 			pickBeeper();
 			move();
@@ -21,7 +21,7 @@ public class Problem06 extends Karel {
 		}
 	}
 
-	private void transportSecondCell() {
+	private void takefromsecondcell() {
 		while (beepersPresent()) {
 			pickBeeper();
 			move();
