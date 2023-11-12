@@ -15,13 +15,13 @@ public class Problem14 extends GraphicsProgram {
 	}
 	private void drawMouth() {
 		GRect mouth = new GRect ( MOUTH_X , MOUTH_Y );
-		add ( mouth, getWidth() / 2 - MOUTH_X , getHeight() / 2 + MOUTH_Y );
+		add ( mouth, getWidth() / 2 - MOUTH_X / 2 , getHeight() / 2 + FACE_Y / 2 - MOUTH_Y - 20 ); 
 	}
 	private void drawEyes() {
 		GRect eye1 = new GRect ( EYES_X , EYES_Y );
-		add ( eye1, getWidth() / 2 - 3 * EYES_X / 2 , getHeight() / 2 - EYES_Y );
+		add ( eye1, getWidth() / 2 - FACE_X / 2 + 25 , getHeight() / 2 - FACE_Y / 2 + 25 );
 		GRect eye2 = new GRect ( EYES_X , EYES_Y );
-		add ( eye2, getWidth() / 2 + EYES_X / 2 , getHeight() / 2 - EYES_Y );
+		add ( eye2, getWidth() / 2 + FACE_X / 2 - EYES_X - 25 , getHeight() / 2 - FACE_Y / 2 + 25 );
 		
 	}
 	private void drawFace() {
