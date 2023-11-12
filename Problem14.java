@@ -10,8 +10,8 @@ public class Problem14 extends GraphicsProgram {
 	private static final int MOUTH_X = 70;
 	public void run() {
 		drawFace();
-		drawEyes();
-		drawMouth();
+		//drawEyes();
+		//drawMouth();
 	}
 	private void drawFace() {
 		GRect face = new GRect ( FACE_X , FACE_Y );
