@@ -15,9 +15,9 @@ public class Problem14 extends GraphicsProgram {
 	}
 	private void drawEyes() {
 		GRect eye1 = new GRect ( EYES_X , EYES_Y );
-		add ( eye1, getWidth() / 2 - 3 * EYES_X / 2 , getHeight() / 2 + EYES_Y );
+		add ( eye1, getWidth() / 2 - 3 * EYES_X / 2 , getHeight() / 2 - EYES_Y );
 		GRect eye2 = new GRect ( EYES_X , EYES_Y );
-		add ( eye2, getWidth() / 2 + EYES_X / 2 , getHeight() / 2 + EYES_Y );
+		add ( eye2, getWidth() / 2 + EYES_X / 2 , getHeight() / 2 - EYES_Y );
 		
 	}
 	private void drawFace() {
