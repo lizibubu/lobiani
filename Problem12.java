@@ -14,7 +14,7 @@ public class Problem12 extends GraphicsProgram {
 	}
 	private void drawWalls() {
 		GRect walls = new GRect (HOUSE_X , HOUSE_Y );
-		add( walls, getWidth() / 2 - HOUSE_X / 2 , getHeight() / 2 - HOUSE_Y );
+		add( walls, getWidth() / 2 - HOUSE_X / 2 , getHeight() / 2 + HOUSE_Y );
 	}
 
 }
