@@ -13,7 +13,6 @@ public class Problem22 extends GraphicsProgram {
 					rect.setFilled(true);
 				}
 				add(rect);
-				println("i: " + i + " j: " + j + " -> " + (i * 8 + j));
 			}
 		}
 	}
