@@ -15,7 +15,7 @@ public class Problem12 extends GraphicsProgram {
 	}
 	private void drawDoor() {
 		GRect door = new GRect ( DOOR_X , DOOR_Y );
-		add ( door, getWidth() / 2 - HOUSE_X / 4 , getHeight() - DOOR_Y );
+		add ( door, getWidth() / 2 - DOOR_X / 2 , getHeight() - DOOR_Y );
 	}
 	private void drawRoof() {
 		GLine line1 = new GLine ( getWidth() / 2 - HOUSE_X / 2 , getHeight() - HOUSE_Y , getWidth() / 2 , HOUSE_Y - 50 );
