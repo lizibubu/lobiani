@@ -18,6 +18,8 @@ public class Problem12 extends GraphicsProgram {
 	private void drawWindows() {
 		GRect window1 = new GRect ( WINDOW_X , WINDOW_Y );
 		add ( window1, getWidth() / 2 - 3 * WINDOW_X / 2 , getHeight() / 2 + WINDOW_Y );
+		GRect window2 = new GRect ( WINDOW_X , WINDOW_Y );
+		add ( window2, getWidth() / 2 + 3 * WINDOW_X / 2 , getHeight() / 2 - WINDOW_Y );
 		
 	}
 	private void drawDoor() {
