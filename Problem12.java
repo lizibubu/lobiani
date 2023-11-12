@@ -6,11 +6,18 @@ public class Problem12 extends GraphicsProgram {
 	private static final int HOUSE_X = 200;
 	private static final int DOOR_Y = 80;
 	private static final int DOOR_X = 80;
+	private static final int WINDOW_Y = 50;
+	private static final int WINDOW_X = 50;
 	public void run() {
 		drawWalls();
 		drawRoof();
 	    drawDoor();
-		//drawWindows;
+		drawWindows();
+		
+	}
+	private void drawWindows() {
+		GRect window1 = new GRect ( WINDOW_X , WINDOW_Y );
+		add ( window1, getWidth() / 2 - WINDOW_X , getHeight() / 2 );
 		
 	}
 	private void drawDoor() {
