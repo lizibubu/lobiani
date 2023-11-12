@@ -6,7 +6,7 @@ public class Problem14 extends GraphicsProgram {
 	private static final int FACE_X = 300;
 	private static final int EYES_Y = 80;
 	private static final int EYES_X = 80;
-	private static final int MOUTH_Y = 100;
+	private static final int MOUTH_Y = 80;
 	private static final int MOUTH_X = 200;
 	public void run() {
 		drawFace();
