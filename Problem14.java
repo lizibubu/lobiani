@@ -15,7 +15,7 @@ public class Problem14 extends GraphicsProgram {
 	}
 	private void drawMouth() {
 		GRect mouth = new GRect ( MOUTH_X , MOUTH_Y );
-		add ( mouth, getWidth() / 2 - MOUTH_X / 2 , getHeight() / 2 + FACE_Y / 2 - MOUTH_Y - 20 ); 
+		add ( mouth, getWidth() / 2 - MOUTH_X / 2 , getHeight() / 2 + FACE_Y / 2 - MOUTH_Y - 30 ); 
 	}
 	private void drawEyes() {
 		GRect eye1 = new GRect ( EYES_X , EYES_Y );
