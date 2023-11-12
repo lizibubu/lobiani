@@ -13,7 +13,7 @@ public class Problem12 extends GraphicsProgram {
 		
 	}
 	private void drawRoof() {
-		GLine line1 = new GLine ( getWidth() / 2 , getHeight() - HOUSE_Y ,getWidth() / 2 , HOUSE_Y - 50 );
+		GLine line1 = new GLine ( getWidth() / 2 - HOUSE_X / 2 , getHeight() - HOUSE_Y ,getWidth() / 2 , HOUSE_Y - 50 );
 		add (line1);
 	}
 	private void drawWalls() {
