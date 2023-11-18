@@ -13,6 +13,7 @@ public class Problem26 extends ConsoleProgram {
 				println(small);
 				break;
 			}
+			small--;
 		}
 	}
 }
