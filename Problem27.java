@@ -1,4 +1,17 @@
+import acm.program.ConsoleProgram;
 
-public class Problem27 {
+public class Problem27 extends ConsoleProgram {
+	public void run() {
+		int n = readInt ("Enter n: ");
+		int m = readInt ("Enter m: ");
+		int a = a (n, m);
+	}
 
+	private int a(int n, int m) {
+		int a = 1;
+		for ( int i = 0; i < m; i++) {
+			a *= n;
+		}
+		return a;
+	}
 }
