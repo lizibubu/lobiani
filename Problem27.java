@@ -5,6 +5,7 @@ public class Problem27 extends ConsoleProgram {
 		int n = readInt ("Enter n: ");
 		int m = readInt ("Enter m: ");
 		int a = a (n, m);
+		print (a);
 	}
 
 	private int a(int n, int m) {
