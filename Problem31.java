@@ -12,8 +12,6 @@ public class Problem31 extends ConsoleProgram {
 		println (div);
 		if ( div == 2 ) {
 			println ("prime");
-		} else {
-			println ("not prime");
-		}
+		} 
 	}
 }
