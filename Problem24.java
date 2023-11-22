@@ -9,5 +9,6 @@ public class Problem24 extends ConsoleProgram {
 				div ++; 
 			}
 		}
+		println (div);
 	}		
 }
