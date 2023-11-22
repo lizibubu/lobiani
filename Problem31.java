@@ -9,6 +9,7 @@ public class Problem31 extends ConsoleProgram {
 				div ++; 
 			}
 		}
+		println (div);
 		if ( div == 2 ) {
 			println ("prime");
 		} else {
