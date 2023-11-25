@@ -9,7 +9,9 @@ public class Problem32 extends ConsoleProgram {
 					div ++; 
 				}
 			}
-			println (j);
+				if ( div == 2) {
+					println (j);
+				}
 		}		
 	}
 }
