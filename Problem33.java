@@ -7,7 +7,9 @@ public class Problem33 extends GraphicsProgram {
 	private RandomGenerator rgen = RandomGenerator.getInstance();
 	
 	public void run() {
+		while (true) {
 			makeRandCircle();
+		}
 	}
 
 	private void makeRandCircle() {
