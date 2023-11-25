@@ -19,7 +19,7 @@ public class Problem33 extends GraphicsProgram {
 		oval.setFilled(true);
 		oval.setFillColor(color);
 		add(oval);
-		pause(10000000);
+		pause(10);
 		remove(oval);
 	}
 }
