@@ -2,7 +2,7 @@ import acm.program.ConsoleProgram;
 
 public class Problem32 extends ConsoleProgram {
 	public void run() {
-		int n = readInt ("enter a number: ");
+		int n = readInt ("start: ");
 		int div = 0;
 		for (int i = 1; i <= n; i++) {
 			if ( n % i == 0 ) {
