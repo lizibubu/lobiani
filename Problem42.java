@@ -6,8 +6,8 @@ import acm.program.*;
 public class Problem42 extends GraphicsProgram {
 	private int countClick = 0;
 	private GLine line = null;
-	private int startX = -1;
-	private int startY = -1;
+	private int startX = 0;
+	private int startY = 0;
 	private boolean finished = false;
 	public void run() {
 		addMouseListeners();
