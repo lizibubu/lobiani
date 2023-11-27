@@ -10,11 +10,10 @@ public class Problem40 extends GraphicsProgram {
 		while (oval.getX() + oval.getWidth() <= getWidth()) {
 			pause(100);
 			oval.move(xv, yv);
-		}
-		oval.setLocation(getWidth() - oval.getWidth(), oval.getY());
-		while (oval.getX() + oval.getWidth() <= getWidth()) {
-			pause(100);
-			oval.move(-xv, yv);
+			while (oval.getX() + oval.getWidth() <= getWidth()) {
+				pause(100);
+				oval.move(-xv, yv);
+			}	
 		}
 	}
 }
