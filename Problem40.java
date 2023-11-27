@@ -13,7 +13,7 @@ public class Problem40 extends GraphicsProgram {
 				oval.move(xv, yv);
 			}
 			oval.setLocation(getWidth() - oval.getWidth(), oval.getY());
-			while (oval.getX() + oval.getWidth() > 0) {
+			while (oval.getX() > 0) {
 				pause(50);
 				oval.move(-xv, yv);
 			}
