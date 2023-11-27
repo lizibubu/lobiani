@@ -7,6 +7,7 @@ public class Problem43 extends GraphicsProgram {
 	public void run() {
 		oval = new GOval(50, 50);
 		oval.setFilled(true);
+		add (oval, getWidth() / 2, getHeight() / 2);
 		addMouseListeners();
 	}
 	
