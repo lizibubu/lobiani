@@ -4,9 +4,9 @@ public class Problem47 extends ConsoleProgram {
 	public void run() {
 		String word = "Enter Word: ";
 		if (isPalindrom(word)) {
-			println("palindromia");
+			println("Is Palindrom");
 		} else {
-			println("ar aris palindromi");
+			println("Is not Palindrom");
 		}
 		
 	}
