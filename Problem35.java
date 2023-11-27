@@ -5,13 +5,13 @@ public class Problem35 extends ConsoleProgram {
 	RandomGenerator rg = RandomGenerator.getInstance();
 	
 	public void run(){
-		int exp = readInt("Enter Amount: ");
+		int n = readInt("Enter amount: ");
 		int sum = 0;
-		for(int i = 0; i < exp; i++){
+		for(int i = 0; i < n; i++){
 			int amount = oneExperiment();
 			sum += amount;
 		}
-		double ans = (double)sum / exp;
+		double ans = (double)sum / n;
 		println(ans);
 	}
 
