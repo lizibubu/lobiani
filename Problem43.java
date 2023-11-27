@@ -13,7 +13,7 @@ public class Problem43 extends GraphicsProgram {
 	
 	public void mouseDragged (MouseEvent e) {
 		if (getElementAt(e.getX(), e.getY()) == oval) {
-			oval.setLocation(e.getX(), e.getY());
+			oval.setLocation(e.getX() - 25, e.getY() - 25);
 		}
 	}
 
