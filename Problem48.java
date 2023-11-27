@@ -15,7 +15,7 @@ public class Problem48 extends ConsoleProgram {
 					sum++;
 				}
 			}
-			println(w + sum);
+			println(w + " " + sum);
 			
 		}
 		
