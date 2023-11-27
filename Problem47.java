@@ -2,7 +2,7 @@ import acm.program.ConsoleProgram;
 
 public class Problem47 extends ConsoleProgram {
 	public void run() {
-		String word = "Enter Word: ";
+		String word = readLine("Enter Word: ");
 		if (isPalindrom(word)) {
 			println("Is Palindrom");
 		} else {
