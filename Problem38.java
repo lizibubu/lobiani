@@ -22,7 +22,7 @@ public class Problem38 extends ConsoleProgram {
 	}
 	
 	private int result(int chosenNumber, int bet) {
-		int spinnedNumber = spin();
+		int spinnedNumber = random.nextInt(0, 36);
 		println(".... " + spinnedNumber);
 		if (spinnedNumber == chosenNumber) {
 			println("you won");
@@ -30,9 +30,5 @@ public class Problem38 extends ConsoleProgram {
 		}
 		println("you lose");
 		return -bet;
-	}
-	
-	private int spin() {
-		return random.nextInt(0, 36);
 	}
 }
