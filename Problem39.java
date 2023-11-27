@@ -11,6 +11,6 @@ public class Problem39 extends GraphicsProgram {
 			pause(200);
 			oval.move(xv, yv);
 		}
-
+		oval.setLocation(getWidth() - oval.getWidth(), oval.getY());
 	}
 }
