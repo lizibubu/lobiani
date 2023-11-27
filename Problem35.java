@@ -1,5 +1,3 @@
-package NewPack;
-
 import acm.program.ConsoleProgram;
 import acm.util.RandomGenerator;
 
