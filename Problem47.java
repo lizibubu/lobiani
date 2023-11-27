@@ -15,11 +15,11 @@ public class Problem47 extends ConsoleProgram {
 		for (int i = 0; i < word.length(); i++) {
 			char first = word.charAt(i);
 			char last = word.charAt(word.length() - 1 - i);
-			if ( first == last ) {
-				return true;
+			if ( first != last ) {
+				return false;
 			}
 		}
-		return false;
+		return true;
 	}
 
 }
