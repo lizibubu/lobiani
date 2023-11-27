@@ -4,14 +4,14 @@ import acm.graphics.GOval;
 import acm.program.GraphicsProgram;
 
 public class Problem41 extends GraphicsProgram {
-	private boolean isActive = false;
+	private boolean isOn = false;
 
 	public void run() {
 		addMouseListeners();
 	}
 
 	public void mouseMoved(MouseEvent e) {
-		if (isActive) {
+		if (isOn) {
 			GOval oval = new GOval(3, 3);
 			oval.setFilled(true);
 			oval.setLocation(e.getX(), e.getY());
@@ -20,7 +20,7 @@ public class Problem41 extends GraphicsProgram {
 	}
 
 	public void mouseClicked(MouseEvent e) {
-		isActive = !isActive;
+		isOn = !isOn;
 	}
 
 }
