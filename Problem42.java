@@ -26,11 +26,7 @@ public class Problem42 extends GraphicsProgram {
 		if(countClick == 1){
 			startX = e.getX();
 			startY = e.getY();
-			line = new GLine(startX, startY,
-					startX + 1, 
-					startY + 1
-					);
-			
+			line = new GLine(startX, startY, startX + 1, startY + 1	);
 			add(line);
 		}else if(countClick == 2){
 			finished = true;
