@@ -13,7 +13,7 @@ public class Problem38 extends ConsoleProgram {
 			println("you have " + balance );
 			int bet = readInt("enter bet amount: ");
 			if (bet > balance) {
-				println("not enough money, try again.");
+				println("not enough money, please try again later.");
 				continue;
 			}
 			int number = readInt("enter number: ");
@@ -25,10 +25,10 @@ public class Problem38 extends ConsoleProgram {
 		int spinnedNumber = random.nextInt(0, 36);
 		println(".... " + spinnedNumber);
 		if (spinnedNumber == chosenNumber) {
-			println("you won");
+			println("winner");
 			return 35 * bet;
 		}
-		println("you lose");
+		println("loser");
 		return -bet;
 	}
 }
