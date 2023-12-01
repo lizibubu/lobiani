@@ -9,7 +9,7 @@ public class log extends ConsoleProgram {
 
 	private int logar(int n, int m) {
 		int ans = 0;
-		for (int i = n; i < m; i*=n) {
+		for (int i = n; i <= m; i*=n) {
 			ans ++;
 			if ( m == i ) {
 				return ans;
