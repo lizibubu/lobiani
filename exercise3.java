@@ -7,10 +7,12 @@ public class exercise3 extends GraphicsProgram {
 	private GOval oval = null;
 	public void run() {
 		 addMouseListeners();
-		 if (oval != null) {
-			 oval.move(0, 3);
+		 while(true) {
+			 if (oval != null) {
+				 oval.move(0, 3);
+			 }
+			 pause(100);
 		 }
-		 pause(100);
 	}
 	public void mouseClicked(MouseEvent e) {
 		if (oval == null) {
