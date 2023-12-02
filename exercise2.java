@@ -14,7 +14,7 @@ public class exercise2 extends GraphicsProgram {
 	
 	public void mouseDragged(MouseEvent e) {
 		if (getElementAt(e.getX(), e.getY()) == oval ){
-			oval.setLocation(e.getX() + 50, e.getY() + 50 );
+			oval.setLocation(e.getX() - 50, e.getY() - 50 );
 		}
 	}
 
