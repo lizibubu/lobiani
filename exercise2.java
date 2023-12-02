@@ -7,6 +7,7 @@ public class exercise2 extends GraphicsProgram {
 	private GOval oval = null;
 	public void run() {
 		oval = new GOval (100, 100);
+		oval.setFilled(true);
 		add(oval, getWidth() / 2, getHeight() / 2);
 		addMouseListeners();
 	}
