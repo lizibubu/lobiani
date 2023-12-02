@@ -6,7 +6,7 @@ public class exercise1 extends ConsoleProgram {
 		int m = readInt("Enter m: ");
 		for ( int i = 1; i <= m; i++) {
 			n *= n;
-			println(n);
+			print(n);
 		}
 	}
 }
