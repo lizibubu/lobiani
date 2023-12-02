@@ -4,9 +4,16 @@ public class exercise1 extends ConsoleProgram {
 	public void run() {
 		int n = readInt("Enter n: ");
 		int m = readInt("Enter m: ");
-		for ( int i = 1; i <= m; i++) {
-			n *= n;
-			print(n);
+		int a = a(n,m);
+		
+	}
+
+	private int a(int n, int m) {
+		int a = 1;
+		for (int i = 0; i < m; i++){
+			a *= n;
 		}
+		return a;
+		
 	}
 }
