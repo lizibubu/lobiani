@@ -6,14 +6,19 @@ import acm.program.GraphicsProgram;
 public class exercise3 extends GraphicsProgram {
 	private GOval oval = null;
 	public void run() {
-		oval = new GOval (100, 100);
-		oval.setFilled(true);
-		add(oval, getWidth() / 2 , getHeight() / 2);
-		addMouseListeners();
-		oval.move(0, 3);
+		 addMouseListeners();
+		 if (oval != null) {
+			 oval.move(0, 3);
+		 }
+		 pause(100);
 	}
 	public void mouseClicked(MouseEvent e) {
-		
+		if (oval == null) {
+			oval = new GOval(50, 50);
+			oval.setFilled(true);
+			oval.setLocation(e.getX(), e.getY());
+			add(oval);	
+		}
 	}
 
 }
