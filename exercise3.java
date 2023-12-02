@@ -18,6 +18,8 @@ public class exercise3 extends GraphicsProgram {
 			oval.setFilled(true);
 			oval.setLocation(e.getX(), e.getY());
 			add(oval);	
+		} else {
+			oval.setLocation(e.getX(), e.getY());
 		}
 	}
 
