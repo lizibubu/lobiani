@@ -7,11 +7,11 @@ import acm.program.ConsoleProgram;
 public class Problem52 extends ConsoleProgram {
 	public void run() {
 		try {
-			BufferedReader rder = new BufferedReader(
-						new FileReader("Seminari52.java")
+			BufferedReader rd = new BufferedReader(
+						new FileReader("Problem52.java")
 					);
 			while(true){
-				String line = rder.readLine();
+				String line = rd.readLine();
 				if(line == null){
 					break;
 				}
